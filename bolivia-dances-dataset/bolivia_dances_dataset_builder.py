@@ -1,6 +1,5 @@
 """my_dataset dataset."""
 import os
-from labels import get_labels
 
 import tensorflow_datasets as tfds
 
@@ -8,15 +7,15 @@ import tensorflow_datasets as tfds
 class Builder(tfds.core.GeneratorBasedBuilder):
     """DatasetBuilder for my_dataset dataset."""
 
-    VERSION = tfds.core.Version('1.0.3')
+    VERSION = tfds.core.Version('1.0.0')
     RELEASE_NOTES = {
-        '1.0.3': 'Initial release.',
+        '1.0.0': 'Initial release.',
     }
 
     TRAIN_URL = "data/train"
     TEST_URL = "data/test"
 
-    LABELS = [*get_labels(TRAIN_URL)]
+    LABELS = ['Caporales', 'Carnavalito', 'Chacarera', 'Champas de Aiquile', 'Chovena', 'Chuncho', 'Cueca', 'Cueca Cochabambina', 'Diablada', 'El Torito', 'Lichiwayus de Ayopaya vestimenta', 'Macheteros', 'Morenada', 'Pim Pim', 'Potolos', 'Salay', 'Taquirari', 'Tinku', 'Tobas']
 
     IMAGE_SHAPE = (None, None, 3)
 
