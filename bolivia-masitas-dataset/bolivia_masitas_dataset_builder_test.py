@@ -13,14 +13,14 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-"""BASE Dataset Test."""
+"""Masitas Dataset Test."""
 
 from tensorflow_datasets import testing
-from . import base_dataset_builder
+from . import masitas_dataset_builder
 
 
 class BoliviaDancesTest(testing.DatasetBuilderTestCase):
-  DATASET_CLASS = base_dataset_builder.Builder
+  DATASET_CLASS = masitas_dataset_builder.Builder
   SPLITS = {
       "train": 4,
   }

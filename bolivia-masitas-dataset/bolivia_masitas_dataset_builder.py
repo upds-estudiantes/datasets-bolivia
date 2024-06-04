@@ -1,11 +1,11 @@
-"""BASE dataset."""
+"""Masitas dataset."""
 import os
 import zipfile
 import tensorflow_datasets as tfds
 import gdown
 
 class Builder(tfds.core.GeneratorBasedBuilder):
-    """DatasetBuilder for BASE dataset."""
+    """DatasetBuilder for Instrumentos dataset."""
 
     VERSION = tfds.core.Version('1.0.0')
     RELEASE_NOTES = {
