@@ -52,7 +52,7 @@ Datos sobre instrumentos musicales tradicionales de Bolivia, incluyendo imágene
 
 Este dataset incluye imágenes y descripciones de masitas bolivianas, pequeñas delicias que forman parte de la rica tradición culinaria del país.
 
-[Descargar Dataset de Masitas](https://google.com)
+[Descargar Dataset de Masitas](link_a_dataset)
 
 ## Contribuciones
 
